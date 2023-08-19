@@ -1,0 +1,75 @@
+baseURL: 'https://pg-x.github.io'
+languageCode: 'en-us'
+title: 'PG-X'
+paginate: 7
+theme: "PaperMod"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary for search
+
+params:
+  env: production
+  description: "A Thriving PostgreSQL Ecosystem"
+  DateFormat: "January 2, 2006"
+  defaultTheme: light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/img/postgresql_48x48.ico"
+    favicon32x32: "/img/postgresql_32x32.ico"
+
+  label:
+    text: "PG-X"
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: PG-X
+    Content: >
+            A Thriving PostgreSQL Ecosystem.
+
+            - 分享 PostgreSQL 使用技巧
+
+            - 分享 PostgreSQL 实用插件
+
+            - 分享有关 PostgreSQL 的一切
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/pg-x"
+    - name: Rss
+      url: "index.xml"
+
+menu:
+  main:
+    - name: Search
+      url: search/
+      weight: 5
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
