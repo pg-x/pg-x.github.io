@@ -286,3 +286,7 @@ ORDER by 5 DESC LIMIT 5;
 ### 小结
 
 PostgreSQL 中的数据膨胀在 heap 表和索引中都会存在，合理的 autovacuum 参数能减少膨胀对性能的影响，社区也通过一些优化减少数据膨胀的比例，当遇到不正常的数据膨胀时，可通过本文介绍的方法查看问题原因，另外autovacuum 的日志也是查找问题的一个重要线索。
+
+### Other useful resources:
+
+[0] [Partial index "microvacuum"](https://www.postgresql.org/message-id/flat/CAL9smLAjt9mZC2%3DqBeJwuNPq7KMAYGTWWQw_hvA-Lfo0b3ycow%40mail.gmail.com)
