@@ -73,3 +73,6 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
+
+staticDir:
+- static
