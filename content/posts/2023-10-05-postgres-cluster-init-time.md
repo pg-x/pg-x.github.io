@@ -8,7 +8,7 @@ ShowToc: false
 TocOpen: false
 ---
 
-PostgreSQL 实例在启动的时候会创建一个 `postmaster.pid` 文件，通过查看该文件的状态可以知道实例启动的时间，另外 pg_stat_activity 记录了辅助进程的状态，因此我们可以通过 `select pg_stat_file('postmaster.pid') AS start_time;` 或 `select MIN(backend_start) as start_time from pg_stat_activity;` 来获取实例启动的时间，但如何知道实例的创建时间呢？
+PostgreSQL 实例在启动的时候会创建一个 `postmaster.pid` 文件，通过查看该文件的状态可以知道实例启动的时间，另外 pg_stat_activity 记录了辅助进程的状态，因此我们可以通过 `select pg_stat_file('postmaster.pid') AS start_time;`、 `select MIN(backend_start) as start_time from pg_stat_activity;` 或者 `select pg_postmaster_start_time();` 来获取实例启动的时间（或者 ），但如何知道实例的创建时间呢？
 
 PostgreSQL 创建实例（initdb）的时候会写一个 `global/pg_control` 文件，这其中有一个字段 **Database system identifier**，在实例 bootstrap 的时候初始化该字段，且在实例之后的生命周期中不再变更。
 
