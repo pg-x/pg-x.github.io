@@ -73,6 +73,10 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
+    - identifier: PG Architecture
+      name: Architecture
+      url: "/images/postgres_internal_architecture.svg"
+      weight: 4
 
 staticDir:
 - static
