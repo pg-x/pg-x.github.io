@@ -59,6 +59,8 @@ params:
       url: "https://github.com/pg-x"
     - name: Rss
       url: "index.xml"
+    - name: wechat
+      url: "images/wechat_qrcode.jpg"
 
 menu:
   main:
