@@ -79,6 +79,14 @@ menu:
       name: Architecture
       url: "/images/postgres_internal_architecture.svg"
       weight: 4
+    - identifier: CommitFest
+      name: CommitFest
+      url: "https://commitfest.postgresql.org/"
+      weight: 25
+    - identifier: cfbot
+      name: Cfbot
+      url: "http://cfbot.cputube.org/"
+      weight: 30
 
 staticDir:
 - static
