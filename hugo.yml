@@ -81,7 +81,7 @@ menu:
       weight: 4
     - identifier: CommitFest
       name: CommitFest
-      url: "https://commitfest.postgresql.org/"
+      url: "https://commitfest.postgresql.org/inprogress"
       weight: 25
     - identifier: cfbot
       name: Cfbot
