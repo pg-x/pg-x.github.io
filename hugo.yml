@@ -1,7 +1,7 @@
 baseURL: 'https://pg-x.github.io'
 languageCode: 'en-us'
 title: 'PG-X'
-paginate: 7
+paginate: 8
 theme: "PaperMod"
 
 outputs:
@@ -46,13 +46,9 @@ params:
   homeInfoParams:
     Title: PG-X
     Content: >
-            A Thriving PostgreSQL Ecosystem.
+            - PostgreSQL开源生态
 
-            - 分享 PostgreSQL 使用技巧
-
-            - 分享 PostgreSQL 实用插件
-
-            - 分享有关 PostgreSQL 的一切
+            - A Thriving PostgreSQL Ecosystem.
 
   socialIcons:
     - name: github
