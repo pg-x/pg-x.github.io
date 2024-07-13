@@ -83,6 +83,10 @@ menu:
       name: Cfbot
       url: "http://cfbot.cputube.org/"
       weight: 30
+    - identifier: DevFAQ
+      name: FAQ
+      url: "https://wiki.postgresql.org/wiki/Developer_FAQ"
+      weight: 35
 
 staticDir:
 - static
