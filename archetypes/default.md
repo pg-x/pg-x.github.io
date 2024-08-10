@@ -1,9 +1,8 @@
 ---
-author: pg-x
+author: zhjwpku
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 tags: []
-draft: true
 ShowToc: false
 TocOpen: false
 ---
