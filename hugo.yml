@@ -83,6 +83,10 @@ menu:
       name: Cfbot
       url: "http://cfbot.cputube.org/"
       weight: 30
+    - identifier: buildfarm
+      name: BuildFarm
+      url: "https://buildfarm.postgresql.org/cgi-bin/show_status.pl"
+      weight: 32
     - identifier: DevFAQ
       name: FAQ
       url: "https://wiki.postgresql.org/wiki/Developer_FAQ"
