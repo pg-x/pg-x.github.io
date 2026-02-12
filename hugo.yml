@@ -75,6 +75,10 @@ menu:
       name: Architecture
       url: "/images/postgres_internal_architecture.svg"
       weight: 4
+    - identifier: hackorum
+      name: Hackorum
+      url: "https://hackorum.dev/"
+      weight: 22
     - identifier: CommitFest
       name: CommitFest
       url: "https://commitfest.postgresql.org/inprogress"
